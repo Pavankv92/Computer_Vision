@@ -1,4 +1,4 @@
-# Computer_Vision
+# Camera Calibration
 
 Camera calibration: A practical guide (theory with code). Compilation of theory from OpenCV, Andrew zisserman book and few online sources. I have tried my best to simplify things and explained in very practical manner.
 theory can be found in the folder Documents :)
