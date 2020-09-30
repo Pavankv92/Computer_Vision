@@ -55,7 +55,7 @@ class calibrateKinectCamera(object):
             img = cv2.imread(name)
             img = cv2.resize(img,(1366,768))
             cv2.imshow('image', img)
-            cv2.waitKey(200)
+            cv2.waitKey(100)
             self.gray_image = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
             found, corners = cv2.findChessboardCorners(self.gray_image, self.pattern,None)
