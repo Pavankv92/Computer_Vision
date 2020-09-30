@@ -49,7 +49,7 @@ class calibrateKinectCamera(object):
         objectpoints = []
         imagepoints = []
     
-        all_image_names = glob.glob('Data/*.JPG')
+        all_image_names = glob.glob('Data/*.png')
         
         for name in all_image_names:
             img = cv2.imread(name)
